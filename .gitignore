@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+catboost_info/
+.DS_Store
+*.mov
+archive.zip
+.ipynb_checkpoints/
+models/*.joblib
+ML Demo.mp4

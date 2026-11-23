@@ -1,0 +1,8 @@
+Model,Family,RMSE_LKR,MAE_LKR,R2,MAPE_pct,Train_Time_s
+CatBoost (Boosting),Boosting,109797.93,58266.51,0.7263,20.8,0.48
+Stacking (RF+XGB+LGBM+Cat),Stacking,110997.22,56911.95,0.7203,20.67,16.75
+XGBoost (Boosting),Boosting,112412.51,56672.94,0.7131,20.91,0.39
+LightGBM (Boosting),Boosting,117613.54,61432.04,0.686,21.72,0.19
+Random Forest (Bagging),Bagging,117763.87,59859.41,0.6852,22.31,3.52
+Hybrid (RF + ANN),Hybrid,126662.27,66504.08,0.6358,24.44,11.74
+Decision Tree (Baseline),Baseline,136420.81,70790.24,0.5775,26.39,0.05
